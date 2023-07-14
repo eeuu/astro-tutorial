@@ -2,6 +2,14 @@ html {
   background-color: #f1f5f9;
   font-family: sans-serif;
 }
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
 
 body {
   margin: 0 auto;
@@ -52,7 +60,8 @@ h1 {
   text-transform: uppercase;
 }
 
-.nav-links a:hover, a:focus {
+.nav-links a:hover,
+a:focus {
   background-color: #ff9776;
 }
 
@@ -73,5 +82,4 @@ h1 {
     display: inline-block;
     padding: 15px 20px;
   }
-
 }
