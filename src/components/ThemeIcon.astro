@@ -21,6 +21,7 @@
     border: 0;
     background: none;
   }
+
   .sun {
     fill: black;
   }
@@ -36,7 +37,7 @@
   }
 </style>
 
-<script is:inline>
+<script>
   const theme = (() => {
     if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
       return localStorage.getItem("theme");
